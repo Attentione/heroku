@@ -1,21 +1,20 @@
 {
-  "name": "todo",
+  "name": "heroku",
   "version": "1.0.0",
-  "main": "index2.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index2.js",
-    "dev": "nodemon index2.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attentione/heroku.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.12"
+  "bugs": {
+    "url": "https://github.com/Attentione/heroku/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "description": ""
+  "homepage": "https://github.com/Attentione/heroku#readme"
 }
