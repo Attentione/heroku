@@ -1,0 +1,19 @@
+
+
+li.selected {
+    background: rgba(0, 0, 0, 0.651);
+    color: rgba(255, 255, 255, 0.842);
+    }
+  
+section{
+    width: 30%;
+    border: 3px dashed;
+    border-color: black;
+    float: left;
+    margin: 1em;
+    background-color: #F7F5EE;
+    overflow: hidden;
+    padding: 1em;
+    
+}
+
