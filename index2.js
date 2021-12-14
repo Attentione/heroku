@@ -1,7 +1,8 @@
 const express = require('express') 
 const cors = require('cors')
 const app = express()
-const port = 3000
+//const port = 3000
+const PORT = process.env.PORT || config.httpPort;
 
 // cors - allow connection from different domains and ports
 app.use(cors())
@@ -66,6 +67,6 @@ app.put('/attetodos/:id', async (request, response) => {
   })
 
 // app listen port 3000
-app.listen(process.env.PORT || port, () => {
+app.listen(PORT, () => {
   console.log('Example app listening on port 3000')
 })
