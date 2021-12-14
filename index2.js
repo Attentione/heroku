@@ -66,6 +66,6 @@ app.put('/attetodos/:id', async (request, response) => {
   })
 
 // app listen port 3000
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log('Example app listening on port 3000')
 })
