@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const app = express()
 //const port = 3000
-const PORT = process.env.PORT || config.httpPort;
+const PORT = process.env.PORT || 3000
 
 // cors - allow connection from different domains and ports
 app.use(cors())
