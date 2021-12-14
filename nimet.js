@@ -1,5 +1,5 @@
 async function getNames() {
-    let url = 'json/nimet.json';
+    let url = 'nimet.json';
     try {
         let res = await fetch(url);
         return await res.json();
