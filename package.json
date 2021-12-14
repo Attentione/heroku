@@ -1,20 +1,20 @@
 {
-  "name": "heroku",
+  "name": "harj6",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Attentione/heroku.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Attentione/heroku/issues"
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
   },
-  "homepage": "https://github.com/Attentione/heroku#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
